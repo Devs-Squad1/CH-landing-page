@@ -1,0 +1,69 @@
+ /* Responsive */
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    height: 100vh;
+  }
+    .bottom-menu ul li {
+      margin: 0 0 0 68px;
+  }
+  .banner-content h1 {
+	font-size: 45px;
+}
+.banner-content p {
+	padding-right: 25px;
+}
+.banner-wrapper{
+  position: unset;
+}
+
+.banner-img img {
+	width: 100%;
+	height: 351px;
+}
+
+  }
+   
+  
+  /* SM Small Device :320px. */
+  @media only screen and (min-width:0px) and (max-width: 767px) {
+    .width-50 {
+        width: 100%;
+    }
+      .bottom-header-area{
+          display: none;
+      }
+      body {
+      height: 100vh;
+  }
+      .header-area {
+      height: 58px;
+  }
+      .header-logo a img {
+      max-width: 50px;
+  }
+  .banner-wrapper {
+	display: block;
+}
+   .banner-content h1 {
+      font-size: 35px;
+      text-align: center;
+  }
+      .banner-content p {
+      text-align: center;
+    padding-right: 0;
+  }
+  .banner-img img {
+	width: 96%;
+}
+  .banner-img {
+    position: absolute;
+    bottom: 0;
+    padding: 0 10px;
+}
+.banner-wrapper{
+  position: unset;
+}
+  } 
+  
